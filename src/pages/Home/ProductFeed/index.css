@@ -1,0 +1,33 @@
+
+.feed_title {
+    font-size: 1rem;
+    color: #3b3a3a;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .feed_title span {
+    background-color: #2766cc;
+    border-radius: 0.28571429rem;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .product_name {
+    color: #383838;
+    font-weight: 600;
+  }
+  
+  .add_product {
+    background-color: transparent;
+    color: #2666cc;
+    border: 1px solid #2666cc;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5px;
+    font-size: 0.875rem;
+  }
+  

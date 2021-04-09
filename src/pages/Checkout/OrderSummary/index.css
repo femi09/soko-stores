@@ -1,0 +1,41 @@
+.checkout_order_summary span {
+  background-color: #2766cc;
+}
+
+.checkout_order_summary .clear_bag {
+  text-decoration: underline;
+}
+
+.checkout_order_summary button {
+  border: 3px solid #2766cc;
+  width: 6rem;
+  font-size: 1.02rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.increase, .decrease {
+  background-color: #dde9fc;
+  color: #2766cc;
+}
+
+.amount,
+.total_amount {
+  border-bottom: 1px dashed #c4c2c2;
+}
+
+.total .mini_text {
+  font-style: italic;
+}
+
+.order_info,
+.free {
+  color: #31e431;
+}
+
+@media only screen and (max-width: 1024px) {
+  .checkout_order_summary {
+    width: 40%;
+  }
+}
+

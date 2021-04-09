@@ -1,0 +1,32 @@
+.bag {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .bag .title {
+    font-size: 1rem;
+    color: #0f0f0f;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .bag span {
+    background-color: #2766cc;
+    border-radius: 0.28571429rem;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .bag_content .sad_emoji {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .bag_content h1 {
+    color: #0f0f0f;
+    font-weight: 600;
+  }
+  
+  .bag_content p {
+    color: #6e6d6d;
+    font-size: 0.8rem;
+  }

@@ -1,0 +1,16 @@
+.sidebar_options {
+  color: #6e6d6d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sidebar_link {
+  color: #2766cc;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.sidebar_link .MuiSvgIcon-root {
+  font-size: 0.875rem;
+}

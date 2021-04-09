@@ -1,0 +1,28 @@
+.search_box .btn {
+  background-color: #f8de4b;
+  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  height: 2.5rem;
+  padding: 0.6875rem;
+}
+
+.search_box .input_group {
+  width: 96%;
+  margin: 0 auto;
+  position: absolute;
+  top: -3%;
+  right: 0;
+  left: 0;
+}
+
+.search_box input {
+  background-color: #f0f0f0;
+  height: 2.5rem;
+  width: 100%;
+  border-top-left-radius: 0.28571429rem;
+  border-bottom-left-radius: 0.28571429rem;
+}
+
+.search_box .MuiSvgIcon-root {
+  color: #2766cc;
+}
+

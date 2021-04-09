@@ -1,0 +1,58 @@
+
+
+.product_image img {
+  width: 65rem;
+  height: 90%;
+}
+
+.slide_circles .circle {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.slide_circles .active {
+  background-color: #2766cc;
+}
+
+.product_description {
+  width: 85%;
+}
+
+.product_price_container button {
+  border: 3px solid #2766cc;
+  width: 6rem;
+  /* height: 1.5rem; */
+  font-size: 1.02rem;
+  border-radius: 4px;
+}
+
+.increase, .decrease {
+  background-color: #dde9fc;
+  color: #2766cc;
+}
+
+
+.btn_transparent {
+  border: 3px solid #2766cc;
+  color: #2766cc;
+}
+
+@media screen and (max-width: 1024px) {
+    .product_image img {
+        width: 100rem;
+      }
+      .product_description {
+        width: 95%;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .product_image img {
+        width: 80rem;
+        height: 20rem;
+      }
+      .product_description {
+        width: 100%;
+      }
+}
+

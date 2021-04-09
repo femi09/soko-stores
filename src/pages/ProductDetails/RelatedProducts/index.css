@@ -1,0 +1,34 @@
+.related_product_image img {
+    width: 10rem;
+    height: 12rem;
+}
+
+.related_product_name {
+    width: 9rem;
+}
+
+.arrow_forward {
+    background-color: #2766cc;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.arrow_backward {
+    background-color: #c3daff;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.arrow_forward > .MuiSvgIcon-root {
+    color: #dde9fc;
+    font-size: 1rem;
+    margin: 0 0.3rem;
+    font-weight: bold;
+}
+
+.arrow_backward > .MuiSvgIcon-root {
+    color: #dde9fc;
+    font-size: 1rem;
+    margin: 0 0.3rem;
+    font-weight: bold;
+}

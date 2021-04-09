@@ -1,0 +1,60 @@
+.number_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  position: absolute;
+  top: -2%;
+  left: -2%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.875rem;
+}
+
+.number_tag_active {
+  background-color: #2766cc;
+  color: #fff;
+}
+
+@media only screen and (max-width: 2500px) {
+    .number_tag {
+      left: -2%;
+    }
+  
+    .checkout_steps {
+      width: 50%;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+  .number_tag {
+    left: -3%;
+  }
+
+  .checkout_steps {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .number_tag {
+      left: -4%;
+    }
+  
+    .checkout_steps {
+      width: 55%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .number_tag {
+      left: -3%;
+    }
+  
+    .checkout_steps {
+      width: 100%;
+    }
+  }
+
+
+

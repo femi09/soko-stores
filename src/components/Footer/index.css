@@ -1,0 +1,29 @@
+.footer {
+  font-family: "Rubik", sans-serif;
+}
+
+.footer_top {
+  background-color: #2766cc;
+}
+
+.footer_feature_icon img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+
+.chat_button {
+  background-color: #42b95c;
+}
+
+.chat_button .MuiSvgIcon-root {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_feature_icon img {
+    width: 3rem;
+    height: 3rem;
+  }
+}

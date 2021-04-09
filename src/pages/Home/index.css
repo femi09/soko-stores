@@ -1,0 +1,21 @@
+.home {
+  font-family: "Rubik", sans-serif;
+}
+
+.home .sidebar {
+  flex: 0.25;
+}
+
+.home .feed {
+  flex: 0.5;
+}
+
+.home .bag {
+  flex: 0.25;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+

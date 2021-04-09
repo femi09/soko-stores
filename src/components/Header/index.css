@@ -1,0 +1,49 @@
+.header {
+  font-family: "Rubik", sans-serif;
+}
+.header_top {
+  background-color: #2766cc;
+  font-size: 1rem;
+}
+
+.heading {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header_box {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.header .bag_icon {
+  width: 32px;
+  height: 32px;
+}
+
+
+.header_account .MuiSvgIcon-root {
+  font-size: 2.5rem;
+  color: #b4afaf;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    width: 90%;
+  }
+
+  .header_box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    width: 100%;
+  }
+
+  .header_box {
+    width: 100%;
+  }
+}
