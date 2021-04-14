@@ -34,7 +34,7 @@ const Product = () => {
         <div className="product_price_container">
           <div className="product_price flex">
             <h1 className="mr-8 font-bold text-lg">UGX 118,400</h1>
-            <span className="bg-red-500 py-1 px-2 rounded-sm text-white rounded-md text-m">
+            <span className="bg-red-500 py-1 px-2 rounded-sm text-white rounded-md text-sm">
               -20%
             </span>
           </div>
@@ -50,10 +50,10 @@ const Product = () => {
         </div>
 
         <div className="product_action_buttons flex my-8 sm:mt-5 lg:mt-10 xl:mt-20 mb-4">
-          <button className="py-2 font-bold rounded-md w-1/3 btn_transparent">
+          <button className="py-2 font-bold rounded-md w-1/2 sm:w-1/3 btn_transparent">
             Add to Bag
           </button>
-          <button className="py-2 font-bold rounded-md w-1/3 mx-6 btn_primary">
+          <button className="py-2 font-bold rounded-md w-1/2 sm:w-1/3 mx-2 sm:mx-6 btn_primary">
             Buy Now
           </button>
         </div>

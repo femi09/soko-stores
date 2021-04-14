@@ -22,7 +22,6 @@ button:focus {
 
 .btn_transparent {
   background-color: transparent;
-  border: 3px solid #2766cc;
+  border: 2px solid #2766cc;
   color: #2766cc;
 }
-

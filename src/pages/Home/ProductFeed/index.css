@@ -15,41 +15,42 @@
 .product_name {
   color: #383838;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .add_product {
   background-color: transparent;
   color: #2666cc;
-  border: 1px solid #2666cc;
+  border: 1.5px solid #2666cc;
   font-weight: bold;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2.5px;
-  font-size: 0.875rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
 }
 
 .feed .product_image {
-  height: 8.5rem;
+  height: 7rem;
+  object-fit: cover;
 }
 
 .product_price {
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
   .feed .product_image {
-    height: 7rem;
+    height: 10rem;
+    object-fit: cover;
   }
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .feed .product_image {
     height: 7rem;
-    object-fit: contain;
+    object-fit: cover;
   }
 }

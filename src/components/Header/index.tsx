@@ -3,19 +3,20 @@ import { Link } from "react-router-dom";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
 import "./index.css";
 
-
 const Header = () => {
   return (
     <div className="header border-b-2 pb-6">
       <div className="header_top">
-        <h1 className="heading p-4 text-white">Store made with SOKO</h1>
+        <Link to="/">
+          <h1 className="heading p-4 text-white">Store made with SOKO</h1>
+        </Link>
       </div>
 
       <div className="header_box sm:flex sm:justify-between items-center py-4">
-        <div className="header_box_address px-4 sm:px-0 flex items-center">
-          <div className="home_icon object-contain bg-gray-300 bg-gray-100 bg-opacity-25 p-4 rounded-full">
+        <div className="header_box_address px-2 sm:px-0 flex items-center">
+          <div className="home_icon  bg-gray-300 bg-gray-100 bg-opacity-25 p-4 rounded-full">
             <img
-              className="w-8 h-8 "
+              className="w-8 h-8"
               src="/assets/images/home.png"
               alt="home"
             />
@@ -30,7 +31,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="header_box_right text-m  flex justify-between px-4 pt-4 sm:p-0  items-center">
+        <div className="header_box_right text-m flex justify-between px-4 pt-4 sm:p-0  items-center">
           <Link to="/bag">
             <div className="header_bag flex items-center">
               <img

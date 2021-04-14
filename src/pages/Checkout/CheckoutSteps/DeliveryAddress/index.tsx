@@ -4,7 +4,7 @@ import "./index.css";
 
 const DeliveryAddress = () => {
   return (
-    <div className="delivery_address relative  border-l-2 px-8 pb-20">
+    <div className="delivery_address relative border-l-2 px-8 pb-20">
       <div className="number_tag text-gray-600 bg-white border-2">2</div>
       <h1 className="font-bold mb-2">Delivery Address</h1>
       <p className="text-gray-500 ">

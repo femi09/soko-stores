@@ -12,8 +12,8 @@ const ProductFeed = () => {
       </p>
 
       <div className="products flex justify-between sm:items-start sm:flex-col lg:flex-row lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
-          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
+        <div className="product flex items-center w-full lg:m-2 xl:mx-2">
+          <div className="mr-4 lg:mr-6 w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
                 className="product_image w-full rounded-md"
@@ -31,7 +31,8 @@ const ProductFeed = () => {
             <div className="flex items-center w-full justify-between">
               <p className="product_price text-m text-gray-500">UGX 185,000</p>
               <button className="add_product px-3 xl:px-6">
-                <span className="mr-2 text-lg">+</span> Add
+                <span className="mr-2 text-lg">+</span>
+                <span>Add</span>
               </button>
             </div>
           </div>
@@ -39,8 +40,8 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex justify-between sm:flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
-          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5 relative">
+        <div className="product flex items-center w-full lg:m-2 xl:mx-2">
+          <div className="mr-4 lg:mr-6 w-1/3 lg:w-1/4 xl:w-1/5 relative">
             <Link to="/product">
               <img
                 className="product_image w-full rounded-md"
@@ -68,7 +69,8 @@ const ProductFeed = () => {
                 </p>
               </div>
               <button className="add_product px-3 xl:px-6">
-                <span className="mr-2 text-lg">+</span> Add
+                <span className="mr-2 text-lg">+</span>
+                <span>Add</span>
               </button>
             </div>
           </div>
@@ -76,8 +78,8 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex justify-between sm:flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
-          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
+        <div className="product flex items-center w-full lg:m-2 xl:mx-2">
+          <div className="mr-4 lg:mr-6 w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
                 className="product_image w-full rounded-md"
@@ -99,7 +101,8 @@ const ProductFeed = () => {
                 <p className="product_price text-gray-500">UGX 4,000</p>
               </div>
               <button className="add_product px-3 xl:px-6">
-                <span className="mr-2 text-lg">+</span> Add
+                <span className="mr-2 text-lg">+</span>
+                <span>Add</span>
               </button>
             </div>
           </div>
@@ -107,11 +110,11 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex flex-col lg:flex-row justify-between items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
-          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
+        <div className="product flex items-center w-full lg:m-2 xl:mx-2">
+          <div className="mr-4 lg:mr-6 w-1/3 lg:w-1/4 xl:w-1/5 rounded-md">
             <Link to="/product">
               <img
-                className="product_image w-full rounded-md"
+                className="product_image w-full rounded-lg"
                 src="/assets/images/48-metal-country-chalet-charm.jpg"
                 alt=""
               />
@@ -130,7 +133,8 @@ const ProductFeed = () => {
                 <p className="product_price text-gray-500">UGX 34,000</p>
               </div>
               <button className="add_product px-3 xl:px-6">
-                <span className="mr-2 text-lg">+</span> Add
+                <span className="mr-2 text-lg">+</span>
+                <span>Add</span>
               </button>
             </div>
           </div>
@@ -138,8 +142,8 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex justify-between flex flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:py-4 xl:mx-2">
-          <div className="shadow-md rounded-md mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
+        <div className="product flex items-center w-full lg:m-2 xl:mx-2">
+          <div className="shadow-md rounded-md mr-4 lg:mr-6  w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
                 className="product_image w-full rounded-md"
@@ -161,7 +165,8 @@ const ProductFeed = () => {
                 <p className="product_price text-gray-500">UGX 8,000</p>
               </div>
               <button className="add_product px-3 xl:px-6">
-                <span className="mr-2 text-lg">+</span> Add
+                <span className="mr-2 text-lg">+</span>
+                <span>Add</span>
               </button>
             </div>
           </div>

@@ -9,7 +9,7 @@ const Bag = () => {
         <img
           src="https://mysoko.app/static/media/group@3x%203.2d2dde74.jpg"
           alt=""
-          className="w-48 h-48"
+          className="sm:w-48 sm:h-48 w-24 h-24"
         />
       </div>
       <div className="bag_content_info my-4">

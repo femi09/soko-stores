@@ -19,7 +19,7 @@
 }
 
 .product_price_container button {
-  border: 3px solid #2766cc;
+  border: 2px solid #2766cc;
   width: 6rem;
   /* height: 1.5rem; */
   font-size: 1.02rem;
@@ -32,10 +32,7 @@
 }
 
 
-.btn_transparent {
-  border: 3px solid #2766cc;
-  color: #2766cc;
-}
+
 
 @media screen and (max-width: 1024px) {
     .product_image img {
