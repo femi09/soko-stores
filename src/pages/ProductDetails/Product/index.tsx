@@ -1,5 +1,6 @@
 import React from "react";
-import "./index.css"
+import { Link } from "react-router-dom";
+import "./index.css";
 
 const Product = () => {
   return (
@@ -53,9 +54,12 @@ const Product = () => {
           <button className="py-2 font-bold rounded-md w-1/2 sm:w-1/3 btn_transparent">
             Add to Bag
           </button>
-          <button className="py-2 font-bold rounded-md w-1/2 sm:w-1/3 mx-2 sm:mx-6 btn_primary">
+          <Link
+            className="py-2 font-bold rounded-md w-1/2 sm:w-1/3 mx-2 sm:mx-6 btn_primary"
+            to="/checkout"
+          >
             Buy Now
-          </button>
+          </Link>
         </div>
       </div>
     </div>

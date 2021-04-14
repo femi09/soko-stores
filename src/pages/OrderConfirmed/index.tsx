@@ -25,15 +25,15 @@ const OrderConfirmed = () => {
         </div>
       </div>
       <div className="order_confirm_buttons px-1 sm:w-1/2 sm:mx-auto flex justify-center my-8">
-        <button className="btn_transparent font-bold w-1/3 text-xs lg:w-1/4 rounded-lg py-3">
+        <button className="btn_transparent font-bold w-1/3 text-xs sm:text-sm lg:w-1/4 rounded-lg py-3">
           Track Order
         </button>
-
-        <button className="btn_primary rounded-lg px-1 w-1/2 lg:w-1/3 font-bold mx-2 text-xs sm:mx-4 py-3">
-          <Link className="" to="/">
-            Continue Shopping
-          </Link>
-        </button>
+        <Link
+          className="w-1/2 btn_primary rounded-lg font-bold text-xs sm:text-sm py-3 lg:w-1/3 px-1 mx-2 sm:mx-4 block"
+          to="/"
+        >
+          Continue Shopping
+        </Link>
       </div>
     </div>
   );

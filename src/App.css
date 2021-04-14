@@ -18,10 +18,12 @@ button:focus {
 .btn_primary {
   background-color: #f8de4b;
   color: #2766cc;
+  text-align: center;
 }
 
 .btn_transparent {
   background-color: transparent;
   border: 2px solid #2766cc;
   color: #2766cc;
+  text-align: center;
 }

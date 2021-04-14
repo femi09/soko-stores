@@ -143,7 +143,7 @@ const ProductFeed = () => {
 
       <div className="products flex justify-between flex flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
         <div className="product flex items-center w-full lg:m-2 xl:mx-2">
-          <div className="shadow-md rounded-md mr-4 lg:mr-6  w-1/3 lg:w-1/4 xl:w-1/5">
+          <div className="mr-4 lg:mr-6  w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
                 className="product_image w-full rounded-md"

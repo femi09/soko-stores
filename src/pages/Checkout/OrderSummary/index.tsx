@@ -15,7 +15,7 @@ const OrderSummary = () => {
         <div className="checkout_order_summary_body py-8 border-b-2">
           <div className="checkout_bag_items flex items-end justify-between my-8">
             <div className="bag_item">
-              <h1 className="bag_item_name font-bold">
+              <h1 className="bag_item_name font-bold text-sm">
                 Earrings and Mangtikka
               </h1>
               <p className="per_piece text-sm text-gray-500 mb-4">Per piece</p>
@@ -34,7 +34,7 @@ const OrderSummary = () => {
 
           <div className="checkout_bag_items flex items-end justify-between">
             <div className="bag_item">
-              <h1 className="bag_item_name font-bold">
+              <h1 className="bag_item_name font-bold text-sm">
                 Colorful Earrings Jhumki{" "}
               </h1>
               <p className="per_piece text-sm text-gray-500 mb-4">Per piece</p>

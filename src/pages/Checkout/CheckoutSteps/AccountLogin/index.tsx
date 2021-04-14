@@ -28,7 +28,7 @@ const AccountLogin = () => {
     openModal();
   };
   return (
-    <div className="account_login relative border-l-2 px-8 pb-20">
+    <div className="account_login relative border-l-2 px-8 xl:pl-12 xl:mx-2 pb-20">
       <div className="number_tag number_tag_active">1</div>
       <div className="account_login_info  flex flex-col">
         <h1 className="font-bold mb-2">Account</h1>

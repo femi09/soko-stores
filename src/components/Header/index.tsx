@@ -8,18 +8,16 @@ const Header = () => {
     <div className="header border-b-2 pb-6">
       <div className="header_top">
         <Link to="/">
-          <h1 className="heading p-4 text-white">Store made with SOKO</h1>
+          <h1 className="heading p-4 text-white">
+            Store made with SOKO
+          </h1>
         </Link>
       </div>
 
       <div className="header_box sm:flex sm:justify-between items-center py-4">
         <div className="header_box_address px-2 sm:px-0 flex items-center">
           <div className="home_icon  bg-gray-300 bg-gray-100 bg-opacity-25 p-4 rounded-full">
-            <img
-              className="w-8 h-8"
-              src="/assets/images/home.png"
-              alt="home"
-            />
+            <img className="w-8 h-8" src="/assets/images/home.png" alt="home" />
           </div>
           <div className="header_address_text mx-4">
             <p className="text-gray-600 text-lg sm:text-xl font-semibold">
