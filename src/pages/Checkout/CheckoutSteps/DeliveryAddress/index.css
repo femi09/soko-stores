@@ -1,0 +1,18 @@
+.default_address {
+  border: 3px solid #2766cc;
+  font-size: 1rem;
+}
+
+.select_address {
+  color: #2766cc;
+  font-size: 1rem;
+  border: 3px solid #d3d3d3;
+  font-weight: 600;
+}
+
+.selected_icon {
+  background-color: #2766cc;
+}
+.selected_icon .MuiSvgIcon-root {
+  color: #fff;
+}

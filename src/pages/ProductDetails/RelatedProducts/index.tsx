@@ -1,23 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
 import ArrowForwardIosOutlinedIcon from "@material-ui/icons/ArrowForwardIosOutlined";
 import ArrowBackIosOutlinedIcon from "@material-ui/icons/ArrowBackIosOutlined";
 import "./index.css";
 
 const RelatedProducts = () => {
+  const divRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (scrollOffset: number) => {
+    if (divRef.current) {
+      divRef.current.scrollLeft += scrollOffset;
+    }
+  };
   return (
     <div className="my-10">
       <div className="flex justify-between items-center my-6">
         <h1 className="text-gray-400 text-xl">RELATED PRODUCTS</h1>
         <div className="related_icon flex align-center">
-          <div className="arrow_backward flex justify-center px-3 mx-2 text-center items-center rounded-full">
+          <div
+            onClick={() => scroll(-200)}
+            className="arrow_backward flex justify-center px-3 mx-2 text-center items-center rounded-full"
+          >
             <ArrowBackIosOutlinedIcon />
           </div>
-          <div className="arrow_forward  justify-center text-center items-center rounded-full">
+          <div
+            onClick={() => scroll(200)}
+            className="arrow_forward  justify-center text-center items-center rounded-full"
+          >
             <ArrowForwardIosOutlinedIcon />
           </div>
         </div>
       </div>
-      <div className="related_products flex items-center xl:justify-between overflow-x-scroll">
+      <div ref={divRef} className="related_products .disable-scrollbars flex items-center xl:justify-between overflow-x-scroll">
         <div className="related_product mr-6">
           <div className="related_product_image">
             <img

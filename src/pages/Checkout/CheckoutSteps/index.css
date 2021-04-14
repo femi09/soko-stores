@@ -16,15 +16,15 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 2500px) {
-    .number_tag {
-      left: -2%;
-    }
-  
-    .checkout_steps {
-      width: 50%;
-    }
+ @media only screen and (min-width: 1700px) {
+  .number_tag {
+    left: -2%;
   }
+
+  .checkout_steps {
+    width: 50%;
+  }
+} 
 
 @media only screen and (max-width: 1024px) {
   .number_tag {
@@ -37,24 +37,31 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .number_tag {
-      left: -4%;
-    }
-  
-    .checkout_steps {
-      width: 55%;
-    }
+  .number_tag {
+    left: -4%;
   }
 
-  @media only screen and (max-width: 600px) {
-    .number_tag {
-      left: -3%;
-    }
-  
-    .checkout_steps {
-      width: 100%;
-    }
+  .checkout_steps {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .number_tag {
+    left: -3%;
   }
 
+  .checkout_steps {
+    width: 100%;
+  }
+}
 
+@media only screen and (max-width: 500px) {
+  .number_tag {
+    left: -5%;
+  }
 
+  .checkout_steps {
+    width: 100%;
+  }
+}

@@ -12,25 +12,25 @@ const ProductFeed = () => {
       </p>
 
       <div className="products flex justify-between sm:items-start sm:flex-col lg:flex-row lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:my-4 xl:mx-2">
-          <div className="mr-2 sm:mr-4 w-1/3 sm:w-1/4">
+        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
+          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
-                className="product_image rounded-md"
+                className="product_image w-full rounded-md"
                 src="/assets/images/kids_2pk_cloth_face_masks.jpg"
                 alt=""
               />
             </Link>
           </div>
-          <div className="product_info text-sm lg:text-m w-2/3 sm:w-3/4">
+          <div className="product_info w-2/3 lg:w-3/4">
             <Link to="/product">
-              <h1 className="product_name mb-2 sm:my-2">
+              <h1 className="product_name mb-2 sm:mb-1">
                 Kids 2pk Cloth Face Masks
               </h1>
             </Link>
             <div className="flex items-center w-full justify-between">
-              <p className="product_price text-gray-500">UGX 185,000</p>
-              <button className="add_product sm:mb-0 sm:mt-4 lg:mt-0 lg:mb-6 px-3 xl:px-6">
+              <p className="product_price text-m text-gray-500">UGX 185,000</p>
+              <button className="add_product px-3 xl:px-6">
                 <span className="mr-2 text-lg">+</span> Add
               </button>
             </div>
@@ -39,11 +39,11 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex justify-between sm:flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:my-4 xl:mx-2">
-          <div className="mr-2 sm:mr-4 w-1/3 sm:w-1/4 relative">
+        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
+          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5 relative">
             <Link to="/product">
               <img
-                className="product_image relative rounded-md"
+                className="product_image w-full rounded-md"
                 src="/assets/images/norbury_scandinavian.jpg"
                 alt=""
               />
@@ -53,9 +53,9 @@ const ProductFeed = () => {
             </Link>
           </div>
 
-          <div className="product_info text-sm lg:text-m w-2/3 sm:w-3/4">
+          <div className="product_info w-2/3 lg:w-3/4">
             <Link to="/product">
-              <h1 className="product_name mb-2 sm:my-2">
+              <h1 className="product_name mb-2 sm:mb-1">
                 Norbury Scandinavian Wood Leg Ottoman
               </h1>
             </Link>
@@ -67,7 +67,7 @@ const ProductFeed = () => {
                   <s>UGX 148,000</s>
                 </p>
               </div>
-              <button className="add_product sm:mb-0 sm:mt-4 lg:mt-0 lg:mb-6 px-3 xl:px-6">
+              <button className="add_product px-3 xl:px-6">
                 <span className="mr-2 text-lg">+</span> Add
               </button>
             </div>
@@ -75,21 +75,21 @@ const ProductFeed = () => {
         </div>
       </div>
 
-      <div className="products flex justify-between  sm:flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:my-4 xl:mx-2">
-          <div className="mr-2 sm:mr-4 w-1/3 sm:w-1/4">
+      <div className="products flex justify-between sm:flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
+        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
+          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
-                className="product_image rounded-md"
+                className="product_image w-full rounded-md"
                 src="/assets/images/baby_carrots_1lb_good_gather.jpg"
                 alt=""
               />
             </Link>
           </div>
 
-          <div className="product_info text-sm lg:text-m w-2/3 sm:w-3/4">
+          <div className="product_info w-2/3 lg:w-3/4">
             <Link to="/product">
-              <h1 className="product_name mb-2 sm:my-2">
+              <h1 className="product_name mb-2 sm:mb-1">
                 Baby-Cut Carrots - 1lb - Good & Gather
               </h1>
             </Link>
@@ -98,7 +98,7 @@ const ProductFeed = () => {
               <div>
                 <p className="product_price text-gray-500">UGX 4,000</p>
               </div>
-              <button className="add_product sm:mb-0 sm:mt-2 lg:mt-0 lg:mb-6 px-3 xl:px-6">
+              <button className="add_product px-3 xl:px-6">
                 <span className="mr-2 text-lg">+</span> Add
               </button>
             </div>
@@ -107,20 +107,20 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex flex-col lg:flex-row justify-between items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:my-4 xl:mx-2">
-          <div className="mr-2 sm:mr-4 w-1/3 sm:w-1/4">
+        <div className="product flex items-center w-full lg:m-2 xl:py-3 xl:mx-2">
+          <div className="mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
-                className="product_image rounded-md"
+                className="product_image w-full rounded-md"
                 src="/assets/images/48-metal-country-chalet-charm.jpg"
                 alt=""
               />
             </Link>
           </div>
 
-          <div className="product_info text-sm lg:text-m w-2/3 sm:w-3/4">
+          <div className="product_info w-2/3 lg:w-3/4">
             <Link to="/product">
-              <h1 className="product_name mb-2 sm:my-2">
+              <h1 className="product_name mb-2 sm:mb-1">
                 Metal Country Chalet Charm and Wood Bench - Saracina Home
               </h1>
             </Link>
@@ -129,7 +129,7 @@ const ProductFeed = () => {
               <div>
                 <p className="product_price text-gray-500">UGX 34,000</p>
               </div>
-              <button className="add_product sm:mb-0 sm:mt-2 lg:mt-0 lg:mb-6 px-3 xl:px-6">
+              <button className="add_product px-3 xl:px-6">
                 <span className="mr-2 text-lg">+</span> Add
               </button>
             </div>
@@ -138,20 +138,20 @@ const ProductFeed = () => {
       </div>
 
       <div className="products flex justify-between flex flex-col lg:flex-row items-end sm:items-start lg:items-end mb-6 sm:mb-8 lg:mb-0">
-        <div className="product flex items-center w-full lg:m-2 xl:my-4 xl:mx-2">
-          <div className="shadow-md rounded-md mr-2 sm:mr-4 w-1/3 sm:w-1/4">
+        <div className="product flex items-center w-full lg:m-2 xl:py-4 xl:mx-2">
+          <div className="shadow-md rounded-md mr-4 lg:mr-6 xl:mr-8 w-1/3 lg:w-1/4 xl:w-1/5">
             <Link to="/product">
               <img
-                className="product_image rounded-md"
+                className="product_image w-full rounded-md"
                 src="/assets/images/alternative_protein_ground_16oz_good_gather.jpg"
                 alt=""
               />
             </Link>
           </div>
 
-          <div className="product_info text-sm lg:text-m w-2/3 sm:w-3/4">
+          <div className="product_info w-2/3 lg:w-3/4">
             <Link to="/product">
-              <h1 className="product_name mb-2 sm:my-2">
+              <h1 className="product_name mb-2 sm:mb-1">
                 Alternative Protein Ground - 16oz - Good & Gather
               </h1>
             </Link>
@@ -160,7 +160,7 @@ const ProductFeed = () => {
               <div>
                 <p className="product_price text-gray-500">UGX 8,000</p>
               </div>
-              <button className="add_product sm:mb-0 sm:mt-2 lg:mt-0 lg:mb-6 px-3 xl:px-6">
+              <button className="add_product px-3 xl:px-6">
                 <span className="mr-2 text-lg">+</span> Add
               </button>
             </div>

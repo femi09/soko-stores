@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
 import "./index.css";
 
+
 const Header = () => {
   return (
     <div className="header border-b-2 pb-6">

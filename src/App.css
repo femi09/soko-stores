@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .app {
   line-height: 1.4285em;
   color: #000000de;
